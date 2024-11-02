@@ -1,0 +1,136 @@
+/* 
+.adminBody {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+} */
+
+.signin_and_signup_background{
+    background-image: url("Resources/Img/background/signin/1.0.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+/* adminsignin.php  */
+.adminsignInBody {
+    background-image: url("Resources/Img/background/admin_signin/1.0.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.adminSignIn_Box {
+    width: 380px;
+    padding: 20px;
+    border-radius: 5px;
+    /* background-color: white; */
+
+}
+
+.admin_input_border{
+    border-color: white !important;
+}
+.admin_input_border::placeholder {
+    color: white; /* Set placeholder color to white */
+}
+
+/* adminDashboard.php  */
+.admin_dashboard_background {
+    background-image: url("Resources/Img/background/admin_dashboard/1.0.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/* adminReport.php  */
+.admin_report{
+    background-image: url("Resources/Img/background/report/1.0.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* adminUser.php  */
+.admin_user{
+    background-image: url("Resources/Img/background/admin_user_management/1.0.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* adminProduct.php  */
+.admin_product{
+    background-image: url("Resources/Img/background/admin_product_management/1.0.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* adminStock.php  */
+.admin_stock{
+    background-image: url("Resources/Img/background/admin_stock_management/1.0.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* index.php  */
+/* whatsapp icon move to down  */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    animation: breath 2s infinite;
+  }
+
+
+/* singleproductview.php  */
+/* single product view  */
+.single_product_view {
+  animation: breath 10s infinite;
+}
+
+
+/* singleproductview.php  */
+/* single product view  */
+.admin_signin_icon {
+  animation: breath 5s infinite;
+}
+
+
+@keyframes breath {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+
+/* mouser pointer  */
+.cursor-pointer {
+    padding: 20px 40px;
+    background-color: #0000ff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cursor-pointer:hover {
+    cursor: pointer; /* Change cursor to hand icon */
+  
+    background-color: #230de5; /* Optional: change background color on hover */
+  }
+  
+
+  
